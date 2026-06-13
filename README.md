@@ -1,49 +1,23 @@
-# Sistema de Pedidos para Lanchonete
+# 🍔 Sistema de Pedidos para Lanchonete
 
-Projeto desenvolvido em JavaScript utilizando Node.js para simular um sistema de pedidos de uma lanchonete através do terminal.
+Sistema desenvolvido em JavaScript utilizando Node.js para simular o processo de realização de pedidos em uma lanchonete através do terminal.
 
-## Sobre o Projeto
+## 📌 Sobre o Projeto
 
-O sistema permite que o usuário visualize o cardápio, adicione produtos ao carrinho, remova itens e finalize pedidos diretamente pelo terminal.
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de JavaScript e lógica de programação.
 
-Este projeto foi criado com o objetivo de praticar conceitos fundamentais de JavaScript e lógica de programação.
+O sistema permite que o usuário navegue pelo cardápio, adicione produtos ao carrinho, remova itens e finalize pedidos diretamente pelo terminal.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-* Visualizar cardápio completo
-* Adicionar itens ao carrinho
-* Remover itens do carrinho
-* Visualizar carrinho de compras
-* Calcular valor total do pedido
-* Finalizar pedido
+* 📋 Visualizar cardápio completo
+* ➕ Adicionar itens ao carrinho
+* ➖ Remover itens do carrinho
+* 🛒 Visualizar carrinho de compras
+* 💰 Calcular valor total do pedido
+* ✅ Finalizar pedido
 
-## Cardápio
-
-### Hambúrgueres
-
-* X-Tudo
-* X-Bacon
-* X-Salada
-
-### Bebidas
-
-* Refrigerante
-* Suco Natural
-* Água Mineral
-
-### Acompanhamentos
-
-* Batata Frita
-* Onion Rings
-* Salada
-
-### Sobremesas
-
-* Sorvete
-* Pudim
-* Fatia de Bolo de Chocolate
-
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * JavaScript
 * Node.js
@@ -51,39 +25,17 @@ Este projeto foi criado com o objetivo de praticar conceitos fundamentais de Jav
 * Git
 * GitHub
 
-## Instalação
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/Vitor-Sergio/projeto-lanchonete.git
-```
-
-Acesse a pasta do projeto:
-
-```bash
-cd projeto-lanchonete
-```
-
-Instale as dependências:
-
-```bash
-npm install
-```
-
-## Execução
-
-Execute o projeto com:
-
-```bash
-node index.js
-```
-
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```text
 projeto-lanchonete/
+│
 ├── funcoes/
+│   ├── adicionarItem.js
+│   ├── listarCarrinho.js
+│   ├── removerItem.js
+│   └── somaTotal.js
+│
 ├── cardapio.js
 ├── carrinho.js
 ├── index.js
@@ -91,32 +43,74 @@ projeto-lanchonete/
 └── README.md
 ```
 
-## Aprendizados
+## ▶️ Como Executar
 
-Durante o desenvolvimento deste projeto foram praticados conceitos como:
+### 1. Clone o repositório
 
+```bash
+git clone https://github.com/Vitor-Sergio/projeto-lanchonete.git
+```
+
+### 2. Entre na pasta do projeto
+
+```bash
+cd projeto-lanchonete
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute a aplicação
+
+```bash
+node index.js
+```
+
+## 💡 Exemplo de Uso
+
+```text
+Sistema de Pedidos
+
+1 - Cardápio
+2 - Adicionar item
+3 - Ver carrinho
+4 - Remover item
+5 - Finalizar pedido
+6 - Sair
+```
+
+## 📚 Conceitos Aplicados
+
+Durante o desenvolvimento deste projeto foram utilizados conceitos como:
+
+* Variáveis
+* Arrays
+* Objetos
+* Funções
 * Estruturas condicionais
 * Estruturas de repetição
-* Arrays e objetos
-* Funções
 * Manipulação de dados
-* Organização de código em módulos
+* Organização de código
 
-## Melhorias Futuras
+## 🔮 Melhorias Futuras
 
 * Interface gráfica
 * Persistência de dados
 * Histórico de pedidos
-* Cadastro de produtos
+* Cadastro dinâmico de produtos
 * Integração com banco de dados
 
-## Autor
+## 👨‍💻 Autor
 
-Vitor Xavier
+**Vitor Xavier**
 
-Desenvolvedor em formação com foco em JavaScript, Node.js e desenvolvimento web.
+💼 LinkedIn:
+https://www.linkedin.com/in/vitor-sergio-8025193b6
 
-GitHub: https://github.com/Vitor-Sergio
+🐙 GitHub:
+https://github.com/Vitor-Sergio
 
-LinkedIn: https://www.linkedin.com/in/vitor-sergio-8025193b6
 
