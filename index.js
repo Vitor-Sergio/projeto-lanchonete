@@ -10,7 +10,7 @@ const somaTotal = require("./funcoes/somaTotal");
 
 function exibirMenu() {
   while (true) {
-    console.log("\nSistema de Pedidos");
+    console.log("\n==Sistema de Pedidos==");
     console.log("1 - Cardápio");
     console.log("2 - Adicionar item");
     console.log("3 - Ver carrinho");
